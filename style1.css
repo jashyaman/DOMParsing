@@ -1,0 +1,89 @@
+[id^="fs"]:hover
+{
+    cursor:cell;
+}
+.square
+{
+    border: dotted mediumseagreen 1px;
+    height: 40px;
+    width: 40px;
+}
+.subroot
+{
+    border: dotted mediumseagreen 1px;
+
+}
+.default
+{
+    background-color: cadetblue;
+}
+.hover_basic:hover
+{
+    background-color: cornflowerblue;
+}
+.bglvlOne
+{
+    background-color: darkolivegreen;
+    color: white;
+    margin-right: 2px;
+}
+.hoverlvlOne:hover
+{
+    background-color: forestgreen;
+}
+.bglvlTwo
+{
+    background-color: gold;
+    margin-right: 2px;
+}
+.hoverlvlTwo:hover
+{
+    background-color: chartreuse;
+}
+.bglvlThree
+{
+    background-color: chocolate;
+    color: white;
+}
+.hoverlvlThree:hover
+{
+    background-color: coral;
+}
+.bglvlFour
+{
+    background-color: blueviolet;
+    color: white;
+}
+.hoverlvlFour:hover
+{
+    background-color: darkblue;
+}
+
+
+.display_inlineBlock
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.display_inline
+{
+    display: inline;
+}
+.margin0
+{
+    margin-left: 40px;
+}
+.pad0
+{
+    margin-top:1px;
+    padding-top: 2px;
+    padding-right: 3px;
+}
+.display_block
+{
+    display: block;
+}
+.display_none
+{
+    display: none;
+}
