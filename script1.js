@@ -151,7 +151,7 @@ function fn5_createSquareDivTagsForEachRow(rootElem,d) {
 //http://www.w3schools.com/jsref/dom_obj_body.asp
 //http://stackoverflow.com/questions/4851699/setting-the-id-attribute-of-an-input-element-dynamically-in-ie-alternative-for
 function fn4_grabDestPageBodyElement(d) {
-    var sexy = document.getElementsByTagName("body")[0];
+    var x = document.getElementsByTagName("body")[0];
     var rootElem = document.createElement("div")
         rootElem.setAttribute("id","root");
         rootElem.setAttribute("class","");
@@ -175,7 +175,7 @@ function fn4_grabDestPageBodyElement(d) {
         }
     }
     rootElem.appendChild(div0);
-    sexy.appendChild(rootElem);
+    x.appendChild(rootElem);
     console.log(" STEP 4 : COMPLETED ");
 }
 
